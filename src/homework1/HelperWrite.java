@@ -6,6 +6,7 @@ public class HelperWrite {
     int valueInt;
     double valueDouble;
     String valueString;
+    HelperWrite(){}
     HelperWrite(int valueInt){
         this.valueInt=valueInt;
     }
@@ -20,7 +21,7 @@ public class HelperWrite {
         valueInt = in.nextInt();
         return valueInt;
     }
-    public double setValuesDouble(){
+    public double setandgetValuesDouble(){
         Scanner in = new Scanner(System.in);
         valueDouble = in.nextDouble();
         return valueDouble;
