@@ -16,5 +16,18 @@ public class StartMain {
         newBook.AddTitle();
         newBook.AddContentBook();
         newBook.show();
+        ////////////////////////////////////////////////////////////////////////////
+        Computer[] Computers=new Computer[5];
+        for (Computer tempC:Computers){
+            tempC=new Computer();
+        }
+        //////////////////////////////////////////////////////////////////////////////
+        Address myAddress=new Address();
+        myAddress.setCountry("Ukraine");
+        myAddress.setCity("Dnipro");
+        myAddress.setStreet("Volodimira Monomaha");
+        myAddress.setHouse(25);
+        myAddress.setApartment(67);
+        myAddress.setIndex(49000);
     }
 }
