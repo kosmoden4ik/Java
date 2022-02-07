@@ -29,5 +29,12 @@ public class StartMain {
         myAddress.setHouse(25);
         myAddress.setApartment(67);
         myAddress.setIndex(49000);
+        System.out.println("Страна - "+myAddress.getCountry()+
+                "\n Город "+myAddress.getCity()+
+                "\n Улица "+myAddress.getStreet()+
+                "\n Дом "+myAddress.getHouse()+
+                "\n Квартира "+myAddress.getApartment()+
+                "\n Почтовый индекс "+myAddress.getIndex()
+        );
     }
 }
