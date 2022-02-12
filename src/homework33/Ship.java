@@ -9,7 +9,7 @@ Ship(double coordX, double coordY, double priceVehicle, int speedVehicle, int ye
     this.homePort=homePort;
 }
     public void writeInfoVehicle(){
-        System.out.println("координаты объекта - "+coordX+"/"+coordY);
+        System.out.println("координаты объекта - "+ cordX +"/"+ cordY);
         System.out.println("Цена транспортного средства - "+priceVehicle);
         System.out.println("Скорость объекта "+speedVehicle);
         System.out.println("Год выпуска "+year);
