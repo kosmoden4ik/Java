@@ -1,7 +1,5 @@
 package homework34;
-
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
     final int KEYPRO=1;
@@ -24,6 +22,5 @@ public class Main {
     blancDocument.openDocument();
     blancDocument.editDocument();
     blancDocument.saveDocument();
-
     }
 }
