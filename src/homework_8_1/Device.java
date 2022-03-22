@@ -69,7 +69,8 @@ public class Device {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Device device = (Device) o;
-        return (device.price==price) && Objects.equals(manufacturer, device.manufacturer) && Objects.equals(serialNumber, device.serialNumber);
+        return (device.price==price) && Objects.equals(manufacturer, device.manufacturer) &&
+                Objects.equals(serialNumber, device.serialNumber);
     }
 
     @Override

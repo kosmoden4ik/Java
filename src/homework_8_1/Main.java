@@ -19,8 +19,12 @@ public class Main {
         System.out.println(diagonal.toString());
         System.out.println(svich.toString());
         System.out.println();
-        System.out.println(calculater.equals(diagonal));
-        System.out.println(diagonal.equals(diagonal));
-        System.out.println(svich.equals(modem));
+        System.out.println("calculater equals diagonal  -  "+calculater.equals(diagonal));
+        System.out.println("diagonal equals diagonal  -  "+diagonal.equals(diagonal));
+        System.out.println("svich equals modem  -  "+svich.equals(modem));
+        System.out.println();
+        System.out.println("calculater hash  -  "+calculater.hashCode());
+        System.out.println("diagonal hash  -  "+diagonal.hashCode());
+        System.out.println("svich hash  -  "+svich.hashCode());
     }
 }
