@@ -12,7 +12,7 @@ public class MyList<T> {
     T valueList[]=(T[])new Object[10];
     int indexSize=0;
    MyList(){
-       // varList=new T [10];
+
     }
     void addValue(T valueList){
         if(indexSize==this.valueList.length-1){
