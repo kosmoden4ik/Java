@@ -21,7 +21,7 @@ public class Device {
     String manufacturer;
     float price;
     String serialNumber;
-    Device(String manufacturer, float price, String serialNumber){
+    public Device(String manufacturer, float price, String serialNumber){
         this.manufacturer=manufacturer;
         this.price=price;
         this.serialNumber=serialNumber;
